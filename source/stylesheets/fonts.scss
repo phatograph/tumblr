@@ -1,0 +1,272 @@
+// serif
+
+@font-face {
+    font-family: 'pahnto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/pahnto.ttf');
+    src: url('../fonts/pahnto.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ruduuron';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Layiji RuDuuRon Yaow.ttf');
+    src: url('../fonts/Layiji RuDuuRon Yaow.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ruduuron';
+    font-style: bold;
+    font-weight: 700;
+    src: url('../fonts/Layiji RuDuuRon YaowMak.ttf');
+    src: url('../fonts/Layiji RuDuuRon YaowMak.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'kruengprung';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/kruengprung.ttf');
+    src: url('../fonts/kruengprung.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Droid Serif'), local('DroidSerif'), url(../fonts/DroidSerif.woff) format('woff');
+}
+@font-face {
+    font-family: 'Droid Serif';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Droid Serif Bold'), local('DroidSerif-Bold'), url(../fonts/DroidSerif-Bold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Droid Serif';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Droid Serif Italic'), local('DroidSerif-Italic'), url(../fonts/DroidSerif-Italic.woff) format('woff');
+}
+@font-face {
+    font-family: 'Droid Serif';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Droid Serif Bold Italic'), local('DroidSerif-BoldItalic'), url(../fonts/DroidSerif-BoldItalic.woff) format('woff');
+}
+
+// serif (bold)
+
+@font-face {
+    font-family: 'arabica';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Arabica.ttf');
+    src: url('../fonts/Arabica.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'fahthai';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/SR FahTHAIRegrlar.otf');
+    src: url('../fonts/SR FahTHAIRegrlar.otf') format('truetype');
+}
+
+// sans-serif
+
+@font-face {
+    font-family: 'kunlasatri';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Kunlasatri.ttf');
+    src: url('../fonts/Kunlasatri.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'tankhun';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/TP Tankhun.ttf');
+    src: url('../fonts/TP Tankhun.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'circular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Circular.ttf');
+    src: url('../fonts/Circular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bangna';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/WDB_Bangna.ttf');
+    src: url('../fonts/WDB_Bangna.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'quark';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Quark-Light.otf');
+    src: url('../fonts/Quark-Light.otf') format('truetype');
+}
+
+// sans-serif (bold)
+
+@font-face {
+    font-family: 'supermarket';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/supermarket.ttf');
+    src: url('../fonts/supermarket.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'thaisansneue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ThaiSansNeue-Regular.ttf');
+    src: url('../fonts/ThaiSansNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'fontcraft';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Fontcraft ver 2.03.otf');
+    src: url('../fonts/Fontcraft ver 2.03.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'thaisanslite';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/thaisanslite_r1.ttf');
+    src: url('../fonts/thaisanslite_r1.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Ubuntu Light'), local('Ubuntu-Light'), url(../fonts/Ubuntu-Light.woff) format('woff');
+}
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(../fonts/Ubuntu.woff) format('woff');
+}
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Ubuntu Medium'), local('Ubuntu-Medium'), url(../fonts/Ubuntu-Medium.woff) format('woff');
+}
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(../fonts/Ubuntu-Bold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(../fonts/Ubuntu-LightItalic.woff) format('woff');
+}
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(../fonts/Ubuntu-Italic.woff) format('woff');
+}
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(../fonts/Ubuntu-MediumItalic.woff) format('woff');
+}
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(../fonts/Ubuntu-BoldItalic.woff) format('woff');
+}
+
+// Monospace
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Source Code Pro ExtraLight'), local('SourceCodePro-ExtraLight'), url(../fonts/SourceCodePro-ExtraLight.woff) format('woff');
+}
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Source Code Pro Light'), local('SourceCodePro-Light'), url(../fonts/SourceCodePro-Light.woff) format('woff');
+}
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(../fonts/SourceCodePro-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Source Code Pro Medium'), local('SourceCodePro-Medium'), url(../fonts/SourceCodePro-Medium.woff) format('woff');
+}
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Source Code Pro Semibold'), local('SourceCodePro-Semibold'), url(../fonts/SourceCodePro-Semibold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'), url(../fonts/SourceCodePro-Bold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Source Code Pro Black'), local('SourceCodePro-Black'), url(../fonts/SourceCodePro-Black.woff) format('woff');
+}
+
+// Broken
+
+@font-face {
+    font-family: 'downtheline';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Downtheline.ttf');
+    src: url('../fonts/Downtheline.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'wondwerfool';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/KT_Wondwerfool.ttf');
+    src: url('../fonts/KT_Wondwerfool.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'nithan';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Nithan.ttf');
+    src: url('../fonts/Nithan.ttf') format('truetype');
+}

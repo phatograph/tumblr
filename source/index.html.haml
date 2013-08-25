@@ -1,9 +1,110 @@
----
-title: Welcome to Middleman
----
+.header
+  %p.description
+    หลายประโยคที่ชอบ
+    ก็อยากจะมีที่เขียนเก็บไว้
+  %h1 quotes.phatograph.com
 
-.welcome
-  %h1 Middleman is Watching, Yo
-  %p.doc= link_to "Read Online Documentation", "http://middlemanapp.com/"
-  .box
-    The box!
+.posts
+  .post.text
+    %h2 Undefined
+    %p Create your own undefined.
+    %pre
+      %code
+        :preserve
+          (function(window, undefined){
+            // Pure and clean undefined is available here!
+            // if (val === undefined)
+            // if (typeof val === undefined)
+          })(window);
+
+  .post.link
+    %h2.link
+      %a.link{:href => "http://www.ericsink.com/vcbe/html/index.html"} Version Control by Example
+    .description
+      %p A good book to read up on Version Control.
+
+  .post.photo
+    %p
+      %a{:href => "http://quotes.phatograph.com/image/14352595233"}
+        %img{:alt => "@EatViet, 17 December 2011", :src => "http://31.media.tumblr.com/tumblr_lwcowmefZ11r02xw0o1_500.png"}/
+    .caption
+      %p @EatViet, 17 December 2011
+
+  .post.chat
+    %h2 OH
+    %ul.chat
+      %li.odd.user_1
+        %strong A:
+        in thailand paper work is everything
+      %li.even.user_2
+        %strong B:
+        this is Thailand, I am so totally not amazed
+      %li.odd.user_1
+        %strong A:
+        u can kill someone and have the paper work that says otherwise and you'll be off the hook
+      %li.even.user_2
+        %strong B:
+        When I buy contact lenses I sign my name 4 times
+      %li.odd.user_1
+        %strong A:
+        common sense = non existent
+
+  .post.photo
+    %p
+      %a{:href => "http://quotes.phatograph.com/image/41193121108"}
+        %img{:alt => "Exploits of a Mom", :src => "http://24.media.tumblr.com/b5248d718856d4e7853a168515a5e515/tumblr_mh14zc7Wtr1r02xw0o1_500.png"}/
+    .caption
+      %p
+        %a{:href => "http://xkcd.com/327/"} Exploits of a Mom
+
+  .post.text
+    %h2 สงคราม
+    %p วันนี้ฝันถึงฉากสงคราม เป็นทหาร เกิดขึ้นในซักเมือง ไม่รู้เรื่องอะไรมาก ไม่รู้จักใคร ไม่รู้สาเหตุ รู้แค่ต้องยิงไปเรื่อย ๆ กระสุนหมดก็เก็บปืนที่ตกอยู่ มี M41A1 กับอีเกิ้ล
+    %p ฉากสุดท้ายสู้กับเด็กนักเรียน (ยังใส่ชุดนักเรียน กางเกงฟ้าอยู่เลย เหมือนจะหัวเกรียนและใส่แว่นด้วย) เพื่อนโดนยิงล้มไป 2-3 คน (ทำไมมันแม่นจังวะ) ยิงจนกระสุนไรเฟิลหมด เลยชักปืนสั้นยิงจนเค้าล้ม แต่ยังไม่ตาย เลยวิ่งตามไปจ่อปืนใส่หลัง แล้วยิงต่อไปเป็นนัดสุดท้าย ..
+
+  .post.text
+    %h2 Busy week
+    %p เป็นอาทิตย์ที่มีสีสันดีจริม ๆ
+    %ul
+      %li เริ่มด้วยเมาหยำเปในคืนวันเสาร์
+      %li บัตรเอทีเอ็มหาย สงสัยจะลืมดึงออกจากเครื่อง
+      %li ตื่นเช้าไปเชงเม้งวันอาทิตย์
+      %li คุ้ยหาใบปรับศาลจากที่บ้าน
+      %li ค่าไฟเกินกำหนดจ่ายที่เซเว่น
+      %li ไปรับใบขับขี่ที่โดนยึดไปแสนนานคืนมาได้
+      %li เจ้าหงิญลืมมือถือไว้ในรถ
+      %li แถมยังมีโทรศัพท์สำคัญมา
+      %li ต้อง manual deploy งาน แบบ blind test
+      %li ตอนเย็นแฮปปี้แบตหมดอีก
+      %li วันอังคารไปทำใบขับขี่สากลซะเลย
+      %li วันศุกร์ไปจ่ายค่าไฟที่เพลินจิต
+      %li มีอโกด้าก็อาทิตย์นี้อีกรอบ
+      %li ปลายสัปดาห์ประกันมาตรวจสภาพแฮปปี้ แล้วก็เอาไปต่อคิวซ่อม
+
+  .post.quote
+    %blockquote
+      %p
+        Mornië utúlië<br />
+        Believe and you will find your way<br>
+        Mornië alantië<br />
+        A promise lives within you now
+    .source
+      %p May it be - Enya
+
+  .post.quote
+    %blockquote
+      %p I was waving at my friend standing right behind you, but hello, I’m Gordon Ramsay.
+    .source
+      %p
+        David Mickler’s answer to Gordon Ramsay:<br />
+        <a href="#">What is Gordon Ramsay’s true personality?</a>
+
+  .post.quote
+    %blockquote
+      %p ลองไปถามแฟนลิเวอร์พูลระดับพันธุ์แท้คนไหนก็ได้ว่า คุณคิดว่าทีมจะกลับมาคว้าแชมป์ได้เมื่อไหร่ ผมเชื่อว่าแทบทุกคนจะต้องตอบว่า "ฤดูกาลหน้า"
+    .source
+      %p อุราฮาร่า
+
+.footer
+  %p
+    Special thanks for <a href="http://www.f0nt.com/release/layiji-ruduuron/">Ruduuron</a> font from Layijii

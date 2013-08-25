@@ -1,11 +1,225 @@
 //= require_tree .
 
 @import "compass/css3";
+@import "compass/reset";
+@import "compass/typography/text/force-wrap";
 
-div.box {
-  @include border-radius(5px);
-  background: #f1f1f1;
-  width: 200px;
-  padding: 20px;
-  margin: 20px auto 0;
+@include global-reset;
+
+@mixin caption {
+    font-family: kruengprung, serif;
+    padding-top: 1.5em;
+    color: #aaa;
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 1;
+
+    @media (min-width: 500px) {
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    @media (min-width: 768px) {
+        font-size: 0.8em;
+    }
+}
+
+body {
+    // serif: pahnto, ruduuron, kruengprung
+    // serif (bold): arabica, fahthai
+    // sans-serif: kunlasatri, tankhun, circular, bangna, quark
+    // sans-serif (bold): supermarket, thaisansneue, fontcraft, thaisanslite
+    font-family: ruduuron, sans-serif;
+    font-size: 25px;
+    color: #555;
+    letter-spacing: 1px;
+    line-height: 1.25;
+
+    strong, em {
+        font-weight: bold;
+    }
+
+    a {
+        color: #555;
+    }
+}
+
+div.header {
+    @include background-size(cover);
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 3em 0;
+    line-height: 1;
+
+
+    p.description {
+        @include text-shadow(#333 0 0 1px);
+        text-align: center;
+        color: #777;
+        font-size: 0.7em;
+        letter-spacing: 0.1em;
+    }
+
+    h1 {
+        @include text-shadow(#333 0 0 3px);
+        text-align: center;
+        color: #ccc;
+        font-size: 1.5em;
+        letter-spacing: 0.1em;
+        font-family: kruengprung, serif;
+    }
+}
+
+div.posts {
+    padding: 3em 1em;
+
+    div.post {
+        border-bottom: 1px dashed #ddd;
+        margin-bottom: 2em;
+        padding-bottom: 2em;
+        text-align: center;
+
+        &:last-child {
+            border-bottom: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding-bottom: 1em;
+            text-align: center;
+        }
+
+        p, ul, pre {
+            padding-bottom: 0.5em;
+
+            &:last-child {
+                padding-bottom: 0;
+            }
+        }
+
+        ul {
+            padding: 0 1.5em;
+
+            li {
+                padding: 0.25em;
+
+                &:last-child {
+                    padding-bottom: 0;
+                }
+            }
+        }
+
+        &.photo {
+            p {
+                img {
+                    @include box-shadow(rgba(0, 0, 0, 0.15) 0 1px 4px);
+                    @include box-sizing(border-box);
+                    max-width: 100%;
+                    padding: 10px;
+                    margin: 0 auto;
+                }
+            }
+
+            div.caption {
+                @include caption;
+            }
+        }
+
+        &.link {
+            div.description {
+                @include caption;
+                padding-top: 0;
+            }
+        }
+
+        &.chat {
+            ul {
+                li {
+                    &.even {
+                        background-color: #f7f7f7;
+                    }
+                }
+            }
+        }
+
+        &.text {
+            ul {
+                list-style-type: lower-roman;
+            }
+
+            pre {
+                text-align: left;
+                font-family: 'Source Code Pro', monospace;
+                font-size: 0.5em;
+                padding: 2em;
+                background-color: #f7f7f7;
+                overflow: scroll;
+            }
+        }
+
+
+        &.quote {
+            text-align: center;
+
+            blockquote {
+                font-size: 1em;
+            }
+
+            div.source {
+                @include caption;
+            }
+        }
+    }
+}
+
+div.footer {
+    background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 3em 0;
+    line-height: 1;
+
+
+    p {
+        text-align: center;
+        color: #000;
+        font-size: 0.7em;
+        letter-spacing: 0.1em;
+    }
+
+    a {
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 30px;
+    }
+
+    div.header {
+        padding: 4em 0;
+    }
+
+    div.posts {
+        div.post {
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+
+            &.quote {
+                blockquote {
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 980px) {
+}
+
+@media (min-width: 1200px) {
 }
