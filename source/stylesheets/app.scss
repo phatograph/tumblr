@@ -52,7 +52,6 @@ div.header {
     padding: 3em 0;
     line-height: 1;
 
-
     p.description {
         @include text-shadow(#333 0 0 1px);
         text-align: center;
@@ -73,6 +72,9 @@ div.header {
 
 div.posts {
     padding: 3em 1em;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 0 0 1px 0;
 
     div.post {
         border-bottom: 1px dashed #ddd;
@@ -178,17 +180,21 @@ div.posts {
 
 div.footer {
     background-color: #f7f7f7;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 3em 0;
+    padding: 2em 2em;
     line-height: 1;
-
+    font-family: kruengprung, serif;
+    border-top: 1px solid #fff;
 
     p {
         text-align: center;
         color: #000;
-        font-size: 0.7em;
+        font-size: 0.8em;
         letter-spacing: 0.1em;
+        padding-bottom: 1em;
+
+        &:last-child {
+            padding-bottom: 0;
+        }
     }
 
     a {
